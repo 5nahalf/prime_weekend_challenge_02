@@ -38,7 +38,7 @@ $(document).ready(function(){
 
 var people = ["Erik", "Aaron", "Alicia", "Brian", "Casie", "Clare", "Cody", "Jeanne", "Kaitlin", "Kelly", "Luke", "Mary", "Michael", "Michelle", "Rom", "Steve", "Terry", "Tracy", "Vince"];
 
-var team1 = [];
+
 var team2 = [];
 var team3 = [];
 var team4 = [];
@@ -47,6 +47,7 @@ var team6 = [];
 var team7 = [];
 var team8 = [];
 var team9 = [];
+var team10 = [];
 
 
 
