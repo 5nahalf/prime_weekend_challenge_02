@@ -1,6 +1,9 @@
 
 $(document).ready(function(){
 	$("#btn2").on("click", function(){
+		shuffleArray(people);
+		console.log(people);
+
 
 	});
 	$("#btn3").on("click", function(){
@@ -50,8 +53,18 @@ var team9 = [];
 var team10 = [];
 
 
+var rand = people[Math.floor(Math.random() * people.length)];
 
 
-function randomNumber(min, max) {
-	return Math.floor(Math.random() * (1 + max - min) + min);
-}
+function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+    return array;
+};
+// function randomNumber(min, max) {
+// 	return Math.floor(Math.random() * (1 + max - min) + min);
+// }
