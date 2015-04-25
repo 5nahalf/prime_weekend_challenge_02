@@ -194,8 +194,8 @@ function getName(array){
 	for(k = 0; k < array.length; k++){
 		array[k].toString();
 		array[k] = "<li>" + array[k] + "</li>";
-		}
-		return array;
+	}
+	return array;
 };	
 
 
