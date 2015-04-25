@@ -96,6 +96,7 @@ $(document).ready(function(){
 		} else {
 		$("p").empty();
 		console.log(getName(team2));
+		console.log(getName(people));
 		$("p").append("<ul>" + getName(people) + "</ul>");
 		$("p").append("<ul>" + getName(team2) + "</ul>");
 		$("p").append("<ul>" + getName(team3) + "</ul>");
