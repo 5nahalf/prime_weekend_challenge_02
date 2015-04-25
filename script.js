@@ -95,16 +95,16 @@ $(document).ready(function(){
 			alert("Pick a team!");
 		} else {
 		$("p").empty();
-		$("p").append("<ul>" + people + "</ul>");
-		$("p").append("<ul>" + team2 + "</ul>");
-		$("p").append("<ul>" + team3 + "</ul>");
-		$("p").append("<ul>" + team4 + "</ul>");
-		$("p").append("<ul>" + team5 + "</ul>");
-		$("p").append("<ul>" + team6 + "</ul>");
-		$("p").append("<ul>" + team7 + "</ul>");
-		$("p").append("<ul>" + team8 + "</ul>");
-		$("p").append("<ul>" + team9 + "</ul>");
-		$("p").append("<ul>" + team10 + "</ul>");
+		$("p").append("<ul>Team 1 <br>" + people + "</ul>");
+		$("p").append("<ul>Team 2 <br>" + team2 + "</ul>");
+		$("p").append("<ul>Team 3 <br>" + team3 + "</ul>");
+		$("p").append("<ul>Team 4 <br>" + team4 + "</ul>");
+		$("p").append("<ul>Team 5 <br>" + team5 + "</ul>");
+		$("p").append("<ul>Team 6 <br>" + team6 + "</ul>");
+		$("p").append("<ul>Team 7 <br>" + team7 + "</ul>");
+		$("p").append("<ul>Team 8 <br>" + team8 + "</ul>");
+		$("p").append("<ul>Team 9 <br>" + team9 + "</ul>");
+		$("p").append("<ul>Team 10 <br>" + team10 + "</ul>");
 		}
 			for(i = 0; i < people.length; i++){
 			}
