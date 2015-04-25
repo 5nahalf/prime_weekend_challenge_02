@@ -4,6 +4,11 @@ $(document).ready(function(){
 		i++;
 		shuffleArray(people);
 		team2 = people.splice(0, 10);
+		$("div").hide(function(){
+			$("p").append("<ul>Team 1" + getName(people).join("") + "</ul>");
+			$("p").append("<ul>Team 2" + getName(team2).join("") + "</ul>");
+		});
+
 
 	});
 	$("#btn3").on("click", function(){
@@ -11,6 +16,11 @@ $(document).ready(function(){
 		shuffleArray(people);
 		team2 = people.splice(0, 7);
 		team3 = people.splice(0, 6);
+		$("div").hide(function(){
+			$("p").append("<ul>Team 1" + getName(people).join("") + "</ul>");
+			$("p").append("<ul>Team 2" + getName(team2).join("") + "</ul>");
+			$("p").append("<ul>Team 3" + getName(team3).join("") + "</ul>");
+		});
 	
 	});
 	$("#btn4").on("click", function(){
@@ -19,6 +29,12 @@ $(document).ready(function(){
 		team2 = people.splice(0, 5);
 		team3 = people.splice(0, 5);
 		team4 = people.splice(0, 5);
+		$("div").hide(function(){
+			$("p").append("<ul>Team 1" + getName(people).join("") + "</ul>");
+			$("p").append("<ul>Team 2" + getName(team2).join("") + "</ul>");
+			$("p").append("<ul>Team 3" + getName(team3).join("") + "</ul>");
+			$("p").append("<ul>Team 4" + getName(team4).join("") + "</ul>");
+		});
 
 	});
 	$("#btn5").on("click", function(){
@@ -28,6 +44,13 @@ $(document).ready(function(){
 		team3 = people.splice(0, 4);
 		team4 = people.splice(0, 4);
 		team5 = people.splice(0, 4);
+		$("div").hide(function(){
+			$("p").append("<ul>Team 1" + getName(people).join("") + "</ul>");
+			$("p").append("<ul>Team 2" + getName(team2).join("") + "</ul>");
+			$("p").append("<ul>Team 3" + getName(team3).join("") + "</ul>");
+			$("p").append("<ul>Team 4" + getName(team4).join("") + "</ul>");
+			$("p").append("<ul>Team 5" + getName(team5).join("") + "</ul>");
+		});
 
 	});
 	$("#btn6").on("click", function(){
@@ -38,6 +61,14 @@ $(document).ready(function(){
 		team4 = people.splice(0, 3);
 		team5 = people.splice(0, 3);
 		team6 = people.splice(0, 3);
+		$("div").hide(function(){
+			$("p").append("<ul>Team 1" + getName(people).join("") + "</ul>");
+			$("p").append("<ul>Team 2" + getName(team2).join("") + "</ul>");
+			$("p").append("<ul>Team 3" + getName(team3).join("") + "</ul>");
+			$("p").append("<ul>Team 4" + getName(team4).join("") + "</ul>");
+			$("p").append("<ul>Team 5" + getName(team5).join("") + "</ul>");
+			$("p").append("<ul>Team 6" + getName(team6).join("") + "</ul>");
+		});
 
 	});
 	$("#btn7").on("click", function(){
@@ -49,6 +80,15 @@ $(document).ready(function(){
 		team5 = people.splice(0, 3);
 		team6 = people.splice(0, 3);
 		team7 = people.splice(0, 3);
+		$("div").hide(function(){
+			$("p").append("<ul>Team 1" + getName(people).join("") + "</ul>");
+			$("p").append("<ul>Team 2" + getName(team2).join("") + "</ul>");
+			$("p").append("<ul>Team 3" + getName(team3).join("") + "</ul>");
+			$("p").append("<ul>Team 4" + getName(team4).join("") + "</ul>");
+			$("p").append("<ul>Team 5" + getName(team5).join("") + "</ul>");
+			$("p").append("<ul>Team 6" + getName(team6).join("") + "</ul>");
+			$("p").append("<ul>Team 7" + getName(team7).join("") + "</ul>");
+		});
 
 	});
 	$("#btn8").on("click", function(){
@@ -61,6 +101,16 @@ $(document).ready(function(){
 		team6 = people.splice(0, 2);
 		team7 = people.splice(0, 2);
 		team8 = people.splice(0, 2);
+		$("div").hide(function(){
+			$("p").append("<ul>Team 1" + getName(people).join("") + "</ul>");
+			$("p").append("<ul>Team 2" + getName(team2).join("") + "</ul>");
+			$("p").append("<ul>Team 3" + getName(team3).join("") + "</ul>");
+			$("p").append("<ul>Team 4" + getName(team4).join("") + "</ul>");
+			$("p").append("<ul>Team 5" + getName(team5).join("") + "</ul>");
+			$("p").append("<ul>Team 6" + getName(team6).join("") + "</ul>");
+			$("p").append("<ul>Team 7" + getName(team7).join("") + "</ul>");
+			$("p").append("<ul>Team 8" + getName(team8).join("") + "</ul>");
+		});
 
 	});
 	$("#btn9").on("click", function(){
@@ -74,6 +124,17 @@ $(document).ready(function(){
 		team7 = people.splice(0, 2);
 		team8 = people.splice(0, 2);
 		team9 = people.splice(0, 2);
+		$("div").hide(function(){
+			$("p").append("<ul>Team 1" + getName(people).join("") + "</ul>");
+			$("p").append("<ul>Team 2" + getName(team2).join("") + "</ul>");
+			$("p").append("<ul>Team 3" + getName(team3).join("") + "</ul>");
+			$("p").append("<ul>Team 4" + getName(team4).join("") + "</ul>");
+			$("p").append("<ul>Team 5" + getName(team5).join("") + "</ul>");
+			$("p").append("<ul>Team 6" + getName(team6).join("") + "</ul>");
+			$("p").append("<ul>Team 7" + getName(team7).join("") + "</ul>");
+			$("p").append("<ul>Team 8" + getName(team8).join("") + "</ul>");
+			$("p").append("<ul>Team 9" + getName(team9).join("") + "</ul>");
+		});
 
 	});
 	$("#btn10").on("click", function(){
@@ -83,30 +144,31 @@ $(document).ready(function(){
 		team3 = people.splice(0, 2);
 		team4 = people.splice(0, 2);
 		team5 = people.splice(0, 2);
-		team6 = people.splice(0, 2);
+		team6 = people.splice(0, 2);	
 		team7 = people.splice(0, 2);
 		team8 = people.splice(0, 2);
 		team9 = people.splice(0, 2);
 		team10 = people.splice(0, 2);
+		$("div").hide(function(){
+			$("p").append("<ul>Team 1" + getName(people).join("") + "</ul>");
+			$("p").append("<ul>Team 2" + getName(team2).join("") + "</ul>");
+			$("p").append("<ul>Team 3" + getName(team3).join("") + "</ul>");
+			$("p").append("<ul>Team 4" + getName(team4).join("") + "</ul>");
+			$("p").append("<ul>Team 5" + getName(team5).join("") + "</ul>");
+			$("p").append("<ul>Team 6" + getName(team6).join("") + "</ul>");
+			$("p").append("<ul>Team 7" + getName(team7).join("") + "</ul>");
+			$("p").append("<ul>Team 8" + getName(team8).join("") + "</ul>");
+			$("p").append("<ul>Team 9" + getName(team9).join("") + "</ul>");
+			$("p").append("<ul>Team 10" + getName(team10).join("") + "</ul>");
+		});
 
 	});
 	$("#refresh").click(function(){
 		if(i == 0){
-			alert("Pick a team!");
+			alert("Pick a team bro!!");
 		} else {
-		$("p").empty();
-		console.log(getName(team2));
-		console.log(getName(people));
-		$("p").append("<ul>" + getName(people) + "</ul>");
-		$("p").append("<ul>" + getName(team2) + "</ul>");
-		$("p").append("<ul>" + getName(team3) + "</ul>");
-		$("p").append("<ul>" + getName(team4) + "</ul>");
-		$("p").append("<ul>" + getName(team5) + "</ul>");
-		$("p").append("<ul>" + getName(team6) + "</ul>");
-		$("p").append("<ul>" + getName(team7) + "</ul>");
-		$("p").append("<ul>" + getName(team8) + "</ul>");
-		$("p").append("<ul>" + getName(team9) + "</ul>");
-		$("p").append("<ul>" + getName(team10) + "</ul>");
+			$("div").slideDown();
+
 		}
 	});
 

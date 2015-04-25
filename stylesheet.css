@@ -1,0 +1,25 @@
+div {
+	float: left;
+	display: inline;
+  	vertical-align: middle;
+}
+
+ul {
+	list-style-type: none;
+	float: left;
+	display: inline;
+  	vertical-align: middle;
+}
+
+li {
+	background: green;
+	border-radius: 4px;
+}
+
+ul {
+	background-color: orange;
+}
+
+body {
+	background-color: orange;
+}
