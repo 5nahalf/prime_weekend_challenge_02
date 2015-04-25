@@ -1,17 +1,20 @@
-
+var i = 0;
 $(document).ready(function(){
 	$("#btn2").on("click", function(){
+		i++;
 		shuffleArray(people);
 		team2 = people.splice(0, 10);
 
 	});
 	$("#btn3").on("click", function(){
+		i++;
 		shuffleArray(people);
 		team2 = people.splice(0, 7);
 		team3 = people.splice(0, 6);
 	
 	});
 	$("#btn4").on("click", function(){
+		i++;
 		shuffleArray(people);
 		team2 = people.splice(0, 5);
 		team3 = people.splice(0, 5);
@@ -19,6 +22,7 @@ $(document).ready(function(){
 
 	});
 	$("#btn5").on("click", function(){
+		i++;
 		shuffleArray(people);
 		team2 = people.splice(0, 4);
 		team3 = people.splice(0, 4);
@@ -27,6 +31,7 @@ $(document).ready(function(){
 
 	});
 	$("#btn6").on("click", function(){
+		i++;
 		shuffleArray(people);
 		team2 = people.splice(0, 4);
 		team3 = people.splice(0, 3);
@@ -36,6 +41,7 @@ $(document).ready(function(){
 
 	});
 	$("#btn7").on("click", function(){
+		i++;
 		shuffleArray(people);
 		team2 = people.splice(0, 3);
 		team3 = people.splice(0, 3);
@@ -46,6 +52,7 @@ $(document).ready(function(){
 
 	});
 	$("#btn8").on("click", function(){
+		i++;
 		shuffleArray(people);
 		team2 = people.splice(0, 3);
 		team3 = people.splice(0, 3);
@@ -57,6 +64,7 @@ $(document).ready(function(){
 
 	});
 	$("#btn9").on("click", function(){
+		i++;
 		shuffleArray(people);
 		team2 = people.splice(0, 3);
 		team3 = people.splice(0, 2);
@@ -69,6 +77,7 @@ $(document).ready(function(){
 
 	});
 	$("#btn10").on("click", function(){
+		i++;
 		shuffleArray(people);
 		team2 = people.splice(0, 2);
 		team3 = people.splice(0, 2);
@@ -82,6 +91,9 @@ $(document).ready(function(){
 
 	});
 	$("#refresh").click(function(){
+		if(i == 0){
+			alert("Pick a team!");
+		} else {
 		$("p").empty();
 		$("p").append("<ul>" + people + "</ul>");
 		$("p").append("<ul>" + team2 + "</ul>");
@@ -93,7 +105,7 @@ $(document).ready(function(){
 		$("p").append("<ul>" + team8 + "</ul>");
 		$("p").append("<ul>" + team9 + "</ul>");
 		$("p").append("<ul>" + team10 + "</ul>");
-		
+		}
 			for(i = 0; i < people.length; i++){
 			}
 	});
