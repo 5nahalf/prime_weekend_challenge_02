@@ -1,4 +1,6 @@
 var i = 0;
+
+
 $(document).ready(function(){
 	$("#btn2").on("click", function(){
 		i++;
@@ -79,7 +81,7 @@ $(document).ready(function(){
 		team4 = people.splice(0, 3);
 		team5 = people.splice(0, 3);
 		team6 = people.splice(0, 3);
-		team7 = people.splice(0, 3);
+		team7 = people.splice(0, 2);
 		$("div").hide(function(){
 			$("p").append("<ul>Team 1" + getName(people).join("") + "</ul>");
 			$("p").append("<ul>Team 2" + getName(team2).join("") + "</ul>");
