@@ -10,8 +10,6 @@ $(document).ready(function(){
 		team2 = people.splice(0, 7);
 		team3 = people.splice(0, 6);
 	
-
-
 	});
 	$("#btn4").on("click", function(){
 		shuffleArray(people);
@@ -85,17 +83,19 @@ $(document).ready(function(){
 	});
 	$("#refresh").click(function(){
 		$("p").empty();
-		$("p").append("<div id='team1'>" + people + "</div>");
-		$("p").append("<div id='team2'>" + team2 + "</div>");
-		$("p").append("<div id='team3'>" + team3 + "</div>");
-		$("p").append("<div id='team4'>" + team4 + "</div>");
-		$("p").append("<div id='team5'>" + team5 + "</div>");
-		$("p").append("<div id='team6'>" + team6 + "</div>");
-		$("p").append("<div id='team7'>" + team7 + "</div>");
-		$("p").append("<div id='team8'>" + team8 + "</div>");
-		$("p").append("<div id='team9'>" + team9 + "</div>");
-		$("p").append("<div id='team10'>" + team10 + "</div>");
-
+		$("p").append("<ul>" + people + "</ul>");
+		$("p").append("<ul>" + team2 + "</ul>");
+		$("p").append("<ul>" + team3 + "</ul>");
+		$("p").append("<ul>" + team4 + "</ul>");
+		$("p").append("<ul>" + team5 + "</ul>");
+		$("p").append("<ul>" + team6 + "</ul>");
+		$("p").append("<ul>" + team7 + "</ul>");
+		$("p").append("<ul>" + team8 + "</ul>");
+		$("p").append("<ul>" + team9 + "</ul>");
+		$("p").append("<ul>" + team10 + "</ul>");
+		
+			for(i = 0; i < people.length; i++){
+			}
 	});
 
 
@@ -117,7 +117,7 @@ var team9 = [];
 var team10 = [];
 
 
-var rand = people[Math.floor(Math.random() * people.length)];
+
 
 
 function shuffleArray(array) {
