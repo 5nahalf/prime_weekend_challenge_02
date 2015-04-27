@@ -1,8 +1,4 @@
-div {
-	float: left;
-	display: inline;
-  	vertical-align: middle;
-}
+
 
 ul {
 	list-style-type: none;
@@ -11,19 +7,15 @@ ul {
   	vertical-align: middle;
 }
 
-li {
+#name {
 	background: green;
 	border-radius: 4px;
 }
 
-ul {
+#results {
 	background-color: orange;
 }
 
 body {
 	background-color: orange;
-}
-
-button {
-	
 }

@@ -240,7 +240,7 @@ var team10 = [];
 function getName(array){
 	for(k = 0; k < array.length; k++){
 		array[k].toString();
-		array[k] = "<li>" + array[k] + "</li>";
+		array[k] = "<li id='name'>" + array[k] + "</li>";
 	}
 	return array;
 };	
